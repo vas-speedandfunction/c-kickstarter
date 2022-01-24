@@ -1,8 +1,11 @@
 project:
-  machine_name: wingsuit
+  machine_name: coh-cms
   prefix: WS
   profile:
     name: minimal
+  local:
+    protocol: http
+    hostname: ${project.machine_name}.lndo.site
 cm:
   core:
     install_from_config: true
