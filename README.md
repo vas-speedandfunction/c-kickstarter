@@ -1,6 +1,14 @@
-<p align="center">
-<img src="https://github.com/wingsuit-designsystem/wingsuit/raw/master/images/wsuit-logo-stacked.svg" width="340px">
-</p>
+# Quick start
+
+Clone the repository
+
+```
+cd c-kickstarter
+lando start
+lando composer install
+./vendor/bin/blt source:build:settings
+./vendor/bin/blt setup
+```
 
 # Wingsuit Kickstarter
 See the [documentation](https://wingsuit-designsystem.github.io/drupal/ui_patterns/) for more details.
