@@ -123,7 +123,6 @@
             },
             "drupal/drimage": {
                 "Stage file proxy": "https://git.drupalcode.org/project/drimage/-/merge_requests/1.patch",
-                "webp support for webp": "https://git.drupalcode.org/project/drimage/-/merge_requests/2.patch?X",
                 "embeds in wysiwyg not displaying media": "https://www.drupal.org/files/issues/2020-09-06/3079190-8--show_img_in_media_embed.patch?X"
             },
             "drupal/ui_patterns": {
