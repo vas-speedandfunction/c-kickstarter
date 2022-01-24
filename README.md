@@ -6,6 +6,7 @@ Clone the repository
 cd c-kickstarter
 lando start
 lando composer install
+lando db-import dump/dump.sql
 ./vendor/bin/blt source:build:settings
 ./vendor/bin/blt setup
 ```
