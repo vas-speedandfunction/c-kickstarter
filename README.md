@@ -13,7 +13,7 @@ See the [documentation](https://wingsuit-designsystem.github.io/drupal/ui_patter
 
 ## Quickstart
 ```
-composer create-project wingsuit-designsystem/wingsuit-kickstarter wingsuit-kickstarter --stability dev --no-interaction
+composer create-project vas-speedandfunction/c-kickstarter c-kickstarter --stability dev --no-interaction
 ```
 Copy `blt/example.local.blt.yml` to `blt/local.blt.yml` and adjust your database settings in your `blt/local.blt.yml` file.
 
