@@ -2,6 +2,18 @@
 
 Clone the repository
 
+Copy `blt/example.local.blt.yml` to `blt/local.blt.yml` and adjust your database settings in your `blt/local.blt.yml` file.
+and set in it:
+```
+drupal:
+  db:
+    database: drupal9
+    username: drupal9
+    password: drupal9
+    host: database
+    port: 3306
+```
+
 ```
 cd c-kickstarter
 lando start
@@ -9,6 +21,14 @@ lando composer install
 lando db-import dump/dump.sql
 ./vendor/bin/blt source:build:settings
 ./vendor/bin/blt setup
+```
+
+If you have issues with building token.css file change string in yarn.lock
+postcss-preset-env "^6.7.0" to "7.2.3"
+
+run 
+```
+yarn upgrade postcss-preset-env@7.2.3
 ```
 
 # Wingsuit Kickstarter
