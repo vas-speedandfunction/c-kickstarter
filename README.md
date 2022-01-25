@@ -37,6 +37,11 @@ run
 yarn upgrade postcss-preset-env@7.2.3
 ```
 
+if you have issue to connect to database, just delete settings.php and input access data drupal9/drupal9/drupal9 host:database.
+
+Drupal superuser: admin/admin
+Drupal demo editor: demo/demo
+
 # Wingsuit Kickstarter
 See the [documentation](https://wingsuit-designsystem.github.io/drupal/ui_patterns/) for more details.
 
