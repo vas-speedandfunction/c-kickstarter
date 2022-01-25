@@ -18,10 +18,16 @@ drupal:
 cd c-kickstarter
 lando start
 lando composer install
-lando db-import dump/dump.sql
 ./vendor/bin/blt source:build:settings
 ./vendor/bin/blt setup
 ```
+
+if you have some issues with importing SQL dump:
+
+```
+lando db-import dump/dump.sql
+```
+
 
 If you have issues with building token.css file change string in yarn.lock
 postcss-preset-env "^6.7.0" to "7.2.3"
